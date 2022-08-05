@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane prefHeight="384.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="801.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/istockphoto-901460866-612x612.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblLoading" layoutX="400.0" layoutY="308.0" text="Loading....." textFill="WHITE" />
+      <Rectangle fx:id="rctContainer" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="8.0" layoutX="-2.0" layoutY="385.0" stroke="WHITE" strokeType="INSIDE" width="801.0" />
+      <Rectangle fx:id="rctLoading" arcHeight="5.0" arcWidth="5.0" fill="#11c614" height="8.0" layoutX="2.0" layoutY="385.0" stroke="WHITE" strokeType="INSIDE" width="20.0" />
+   </children>
+</AnchorPane>
