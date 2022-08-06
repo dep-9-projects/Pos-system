@@ -1,0 +1,27 @@
+.button{
+    -fx-font-family: Cantarell Extra Bold;
+    -fx-font-weight:bold;
+    -fx-cursor: hand;
+    -fx-background-color: rgb(0, 178, 255);
+
+}
+
+.label{
+    -fx-font-family: Cantarell Extra Bold;
+    -fx-font-weight:bold;
+    -fx-cursor: hand;
+
+
+}
+
+#btnAdd{
+    -fx-background-color: #3dff21;
+}
+#btnUpdate{
+    -fx-background-color: #8CBAF5;
+}
+
+#btnRemove{
+    -fx-background-color: #F54934;
+}
+
